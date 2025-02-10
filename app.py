@@ -9,12 +9,14 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain_mistralai import ChatMistralAI
 from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
-
+import torch
 # from langchain_community.vectorstores.faiss import FAISS
 
 
 api_key = "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"     
 
+
+torch.classes.__path__ = []
 # Function to get embeddings from Hugging Face API
 def get_huggingface_embeddings(api_key, text):
     url = "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2"
