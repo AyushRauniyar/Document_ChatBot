@@ -1,7 +1,7 @@
-streamlit==1.42.0
-PyPDF2==3.0.1
-langchain==0.3.18
-requests==2.32.3
-langchain_huggingface==0.2.0
-langchain_community==0.3.17
-langchain_mistralai==0.2.6
+streamlit
+PyPDF2
+langchain
+requests
+langchain_huggingface
+langchain_community
+langchain_mistralai
